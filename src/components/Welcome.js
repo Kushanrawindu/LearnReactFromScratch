@@ -10,6 +10,8 @@ import React, { Component } from 'react'
 //     }
 // }
 
+// =======================Destructuring props and state==========================================
+
 export default class Welcome extends Component {
     render() {
         const{name, heroName} = this.props

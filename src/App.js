@@ -6,14 +6,18 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <FunctionClick/>
+      <ClassClick/>
+      {/* <Counter/> */}
       {/* <Message/> */}
 
-      <Greet name="Kushan" heroName="a">
+      {/* <Greet name="Kushan" heroName="a">
         <p>this is children props</p>
       </Greet>
       <Greet name="Ravindu" heroName="b">
@@ -21,10 +25,10 @@ function App() {
       </Greet>
       <Greet name="Kulasooriya" heroName="c">
 
-      </Greet>
-      <Welcome name="Kushan"/>
+      </Greet> */}
+      {/* <Welcome name="Kushan"/>
       <Welcome name="Ravindu"/>
-      <Welcome name="Kulasooriya"/>
+      <Welcome name="Kulasooriya"/> */}
       {/* <Hello/> */}
     </div>
   );
