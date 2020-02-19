@@ -13,7 +13,7 @@ function App() {
       <Counter/>
       {/* <Message/> */}
 
-      {/* <Greet name="Kushan" heroName="a">
+      <Greet name="Kushan" heroName="a">
         <p>this is children props</p>
       </Greet>
       <Greet name="Ravindu" heroName="b">
@@ -24,7 +24,7 @@ function App() {
       </Greet>
       <Welcome name="Kushan"/>
       <Welcome name="Ravindu"/>
-      <Welcome name="Kulasooriya"/> */}
+      <Welcome name="Kulasooriya"/>
       {/* <Hello/> */}
     </div>
   );
