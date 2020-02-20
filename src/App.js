@@ -12,10 +12,12 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreetings from './components/UserGreetings'
 import NameList from './components/NameList';
+import Person from './components/Person';
 
 function App() {
   return (
     <div className="App">
+      {/* <Person/> */}
       <NameList/>
       {/* <UserGreetings /> */}
       {/* <ParentComponent/> */}
